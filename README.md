@@ -6,7 +6,7 @@ A small Spring Boot project that demonstrates **schema-per-tenant multi-tenancy*
 
 ## Tech stack
 
-- Java 21
+- Java 25
 - Spring Boot 3.5.x (Web, Data JPA)
 - Hibernate 6
 - PostgreSQL
