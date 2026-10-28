@@ -1,13 +1,11 @@
 package com.masterboxer.springbootmultitenancy.service;
 
-import com.masterboxer.springbootmultitenancy.model.Customer;
 import com.masterboxer.springbootmultitenancy.record.CustomerRecord;
-
-import java.util.List;
+import com.masterboxer.springbootmultitenancy.record.PageResponse;
 
 public interface CustomerService {
 
-    List<Customer> getAllCustomers();
+    PageResponse<CustomerRecord> getCustomers(int page, int size);
 
-    void insertCustomers(Integer customerNumber);
+    void insertCustomers(int customerNumber);
 }

@@ -2,7 +2,7 @@
 
 A small Spring Boot project that demonstrates **schema-per-tenant multi-tenancy**: every tenant gets its own PostgreSQL schema inside a single database, and each request is routed to the right schema based on an HTTP header.
 
-> Based on [Hogwai/spring-boot-multi-tenancy](https://github.com/Hogwai/spring-boot-multi-tenancy) (MIT). Extended as a learning project.
+> Based on [masterboxer/spring-boot-multi-tenancy](https://github.com/masterboxer/spring-boot-multi-tenancy) (MIT). Extended as a learning project.
 
 ## Tech stack
 

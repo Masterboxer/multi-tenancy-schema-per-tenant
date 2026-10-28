@@ -6,19 +6,21 @@ import lombok.Builder;
 import java.util.Date;
 
 @Builder
-public record CustomerRecord(String firstName,
+public record CustomerRecord(Long id,
+        String firstName,
         String lastName,
         String country,
         String address,
         String city,
         Date creationDate,
-        Date updateDate,
-        String stores) {
+        Date updateDate) {
 
     public static CustomerRecord toRecord(Customer customer) {
         return CustomerRecord.builder()
+                .id(customer.getId())
                 .firstName(customer.getFirstName())
                 .lastName(customer.getLastName())
+                .country(customer.getCountry())
                 .address(customer.getAddress())
                 .city(customer.getCity())
                 .creationDate(customer.getCreationDate())
