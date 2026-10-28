@@ -1,4 +1,4 @@
-package com.hogwai.springbootmultitenancy;
+package com.masterboxer.springbootmultitenancy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootMultiTenancyApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMultiTenancyApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootMultiTenancyApplication.class, args);
+    }
 
 }

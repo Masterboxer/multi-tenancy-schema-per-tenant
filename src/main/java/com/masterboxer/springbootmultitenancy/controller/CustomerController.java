@@ -1,7 +1,7 @@
-package com.hogwai.springbootmultitenancy.controller;
+package com.masterboxer.springbootmultitenancy.controller;
 
-import com.hogwai.springbootmultitenancy.model.Customer;
-import com.hogwai.springbootmultitenancy.service.CustomerService;
+import com.masterboxer.springbootmultitenancy.model.Customer;
+import com.masterboxer.springbootmultitenancy.service.CustomerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StopWatch;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/customers")
 public class CustomerController {
+
     private final CustomerService customerService;
 
     public CustomerController(CustomerService customerService) {

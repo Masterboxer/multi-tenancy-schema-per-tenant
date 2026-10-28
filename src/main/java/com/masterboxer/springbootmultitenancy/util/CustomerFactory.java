@@ -1,12 +1,11 @@
-package com.hogwai.springbootmultitenancy.util;
+package com.masterboxer.springbootmultitenancy.util;
 
-
-import com.hogwai.springbootmultitenancy.model.Customer;
+import com.masterboxer.springbootmultitenancy.model.Customer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.hogwai.springbootmultitenancy.util.StringUtil.generateRandomString;
+import static com.masterboxer.springbootmultitenancy.util.StringUtil.generateRandomString;
 
 public class CustomerFactory {
 

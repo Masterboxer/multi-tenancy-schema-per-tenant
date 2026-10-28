@@ -1,4 +1,4 @@
-package com.hogwai.springbootmultitenancy.config;
+package com.masterboxer.springbootmultitenancy.config;
 
 public class SchemaContextHolder {
 

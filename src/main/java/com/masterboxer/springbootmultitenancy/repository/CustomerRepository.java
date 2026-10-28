@@ -1,7 +1,6 @@
-package com.hogwai.springbootmultitenancy.repository;
+package com.masterboxer.springbootmultitenancy.repository;
 
-
-import com.hogwai.springbootmultitenancy.model.Customer;
+import com.masterboxer.springbootmultitenancy.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

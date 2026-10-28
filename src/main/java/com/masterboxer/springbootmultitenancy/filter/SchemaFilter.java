@@ -1,6 +1,6 @@
-package com.hogwai.springbootmultitenancy.filter;
+package com.masterboxer.springbootmultitenancy.filter;
 
-import com.hogwai.springbootmultitenancy.config.SchemaContextHolder;
+import com.masterboxer.springbootmultitenancy.config.SchemaContextHolder;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

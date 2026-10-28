@@ -1,8 +1,9 @@
-package com.hogwai.springbootmultitenancy.util;
+package com.masterboxer.springbootmultitenancy.util;
 
 import java.util.Random;
 
 public class StringUtil {
+
     private static final Random random = new Random();
     public static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     public static final int ALPHABET_LENGTH = ALPHABET.length();

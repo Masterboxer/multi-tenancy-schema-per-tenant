@@ -1,4 +1,4 @@
-package com.hogwai.springbootmultitenancy.model;
+package com.masterboxer.springbootmultitenancy.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -12,6 +12,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Setter
 public class Customer {
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "cust_seq")
     @SequenceGenerator(name = "cust_seq", sequenceName = "cust_seq", allocationSize = 1)

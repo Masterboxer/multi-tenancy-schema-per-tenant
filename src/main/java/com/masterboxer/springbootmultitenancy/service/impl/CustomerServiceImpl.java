@@ -1,11 +1,10 @@
-package com.hogwai.springbootmultitenancy.service.impl;
+package com.masterboxer.springbootmultitenancy.service.impl;
 
-
-import com.hogwai.springbootmultitenancy.model.Customer;
-import com.hogwai.springbootmultitenancy.record.CustomerRecord;
-import com.hogwai.springbootmultitenancy.repository.CustomerRepository;
-import com.hogwai.springbootmultitenancy.service.CustomerService;
-import com.hogwai.springbootmultitenancy.util.CustomerFactory;
+import com.masterboxer.springbootmultitenancy.model.Customer;
+import com.masterboxer.springbootmultitenancy.record.CustomerRecord;
+import com.masterboxer.springbootmultitenancy.repository.CustomerRepository;
+import com.masterboxer.springbootmultitenancy.service.CustomerService;
+import com.masterboxer.springbootmultitenancy.util.CustomerFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
